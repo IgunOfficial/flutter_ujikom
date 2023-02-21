@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'latihan.dart';
+
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,24 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Latihan Flutter",
-      home : Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.lightBlue,
-          centerTitle: true,
-          title:Text("Latihan"),
+        debugShowCheckedModeBanner: false,
+        title: 'Nyoba Flutter',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
         ),
-        body: Center(
-          child: Text("Hallo Dunia",
-          style: TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-            color: Colors.blue,
-            backgroundColor: Colors.black12,
-          ),
-          ),
-        ),
-      ),
-    );
+        home: const Latihan());
   }
 }
