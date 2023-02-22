@@ -100,10 +100,10 @@ class _LatihanState extends State<Latihan> {
                               borderRadius: BorderRadius.circular(7)),
                           padding: const EdgeInsets.all(5),
                           child: [
-                            const Icon(
-                              Icons.contact_page,
-                              color: Colors.white,
-                              size: 50,
+                              Image.asset(
+                              'assets/images/users.png',
+                              height: 80,
+                              width: 80,
                             ),
                           ][0],
                         )
