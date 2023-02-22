@@ -23,7 +23,7 @@
 // }
 
 import 'package:flutter/material.dart';
-import 'page/listview.dart';
+import 'page/listview1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,6 +40,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const ExListview());
+        home: const ExviewIG());
   }
 }

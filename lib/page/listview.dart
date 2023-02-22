@@ -19,7 +19,7 @@ class _ExListviewState extends State<ExListview> {
           children: [
             Container(
               decoration: BoxDecoration(
-                color: Colors.grey,
+                color: Colors.blueAccent,
                 borderRadius: BorderRadius.circular(7),
               ),
               margin: const EdgeInsets.only(top: 20, bottom: 10),
@@ -34,7 +34,7 @@ class _ExListviewState extends State<ExListview> {
                     child: const Text(
                       'Home',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 12,
                         fontWeight: FontWeight.w700,
                       ),
